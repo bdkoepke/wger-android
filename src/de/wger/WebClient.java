@@ -47,7 +47,7 @@ class WgerWebViewClient extends WebViewClient {
     	/*
     	 * Load all external links with the system's browser
     	 */
-        if (Uri.parse(url).getHost().equals("wger.de")) {
+        if (Uri.parse(url).getHost().equals("swordfish.pw")) {
             return false;
         }
 

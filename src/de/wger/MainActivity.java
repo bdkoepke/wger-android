@@ -91,7 +91,7 @@ public class MainActivity extends Activity {
         // changes
         if (savedInstanceState == null)
         {
-            web.loadUrl("https://wger.de/dashboard");
+            web.loadUrl("http://swordfish.pw:8000/dashboard");
         }
         
     }
